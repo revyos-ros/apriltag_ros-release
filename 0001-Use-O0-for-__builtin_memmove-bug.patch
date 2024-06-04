@@ -1,4 +1,4 @@
-From ef4315bd175c21c42c3e6b8b5dc764c65079dfae Mon Sep 17 00:00:00 2001
+From 03dba815c9c16858b941b97eada305abaa6af6fc Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Mon, 27 May 2024 12:55:20 +0800
 Subject: [PATCH] Use O0 for __builtin_memmove bug.
@@ -8,7 +8,7 @@ Subject: [PATCH] Use O0 for __builtin_memmove bug.
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/debian/rules.em b/debian/rules.em
-index 2ab7b14..0f6defa 100755
+index a856369..3a114ff 100755
 --- a/debian/rules.em
 +++ b/debian/rules.em
 @@ -16,7 +16,7 @@ export LDFLAGS=
