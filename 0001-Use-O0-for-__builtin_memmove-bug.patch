@@ -1,4 +1,4 @@
-From 03dba815c9c16858b941b97eada305abaa6af6fc Mon Sep 17 00:00:00 2001
+From 0204783bb509a0abb7e3b2b6b648802ff2a0dba6 Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Mon, 27 May 2024 12:55:20 +0800
 Subject: [PATCH] Use O0 for __builtin_memmove bug.
@@ -21,5 +21,5 @@ index a856369..3a114ff 100755
  	BUILD_TESTING_ARG=-DBUILD_TESTING=OFF
  endif
 -- 
-2.41.0
+2.45.2
 
