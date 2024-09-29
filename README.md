@@ -1,3 +1,26 @@
+## apriltag_ros (jazzy) - 3.2.2-1
+
+The packages in the `apriltag_ros` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy apriltag_ros --override-release-repository-push-url git@github.com:revyos-ros/apriltag_ros-release.git` on `Sun, 29 Sep 2024 03:19:14 -0000`
+
+The `apriltag_ros` package was released.
+
+Version of package(s) in repository `apriltag_ros`:
+
+- upstream repository: https://github.com/christianrauch/apriltag_ros.git
+- release repository: https://github.com/revyos-ros/apriltag_ros-release.git
+- rosdistro version: `3.2.2-1`
+- old version: `3.1.1-5`
+- new version: `3.2.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## apriltag_ros (humble) - 3.2.2-1
 
 The packages in the `apriltag_ros` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble apriltag_ros --override-release-repository-push-url git@github.com:revyos-ros/apriltag_ros-release.git` on `Wed, 11 Sep 2024 15:27:25 -0000`
